@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Clojure tools
-        uses: DeLaGuardo/setup-clojure@v2
+        uses: DeLaGuardo/setup-clojure@latest
         with:
           deps: 'true'
           tools-deps: 'true'
