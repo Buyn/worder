@@ -376,6 +376,15 @@ html .clear-completed:active {
     }
 }
 
+.todo-list li label {
+    display: flex;
+    }
+
+.todo-list li .view {
+    display: flex;
+    padding-right: 41px;
+    }
+
 .todo-list li .timer {
     display: inline-flex;
     align-items: center;
